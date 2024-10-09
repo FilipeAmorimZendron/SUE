@@ -1,0 +1,61 @@
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centraliza verticalmente */
+  margin: 20px;
+  padding: 30px; /* Preenchimento interno */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 8px; /* Cantos arredondados */
+  background-color: #f2f2f2; /* Cor de fundo */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%; /* Largura total do contêiner */
+  max-width: 400px; /* Largura máxima do formulário */
+}
+
+.formulario-login h2 {
+  color: #333; /* Cor do título */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.formulario-login label {
+  align-self: flex-start; /* Alinha os rótulos à esquerda */
+  margin-bottom: 5px; /* Espaço abaixo dos rótulos */
+  font-size: 14px; /* Tamanho da fonte do rótulo */
+}
+
+.formulario-login input {
+  margin-bottom: 15px; /* Espaço abaixo de cada input */
+  padding: 12px; /* Preenchimento interno */
+  border: 1px solid rgb(0, 0, 0); /* Borda dos inputs */
+  border-radius: 4px; /* Cantos arredondados */
+  width: 100%; /* Largura total do input */
+  font-size: 16px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+}
+
+.formulario-login button {
+  padding: 12px; /* Preenchimento interno do botão */
+  border: none; /* Remove bordas padrão */
+  border-radius: 4px; /* Cantos arredondados */
+  background-color: #000000; /* Cor do botão */
+  color: white; /* Cor do texto do botão */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave */
+  width: 100%; /* Largura total do botão */
+}
+
+.formulario-login button:hover {
+  background-color: #218838; /* Cor ao passar o mouse */
+}
+
+.formulario-login p {
+  margin-top: 15px; /* Espaço acima do parágrafo */
+  color: #666; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Ajuste adicional para garantir o alinhamento correto */
+.formulario-login input {
+  box-sizing: border-box; /* Garante que o padding e a borda não aumentem a largura total */
+}
